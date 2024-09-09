@@ -1,0 +1,108 @@
+body {
+    background-color: #FEFAE0;
+}
+nav {
+    text-align: center;
+    color: #D4A373;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #FEFAE0;
+    padding: 10px 20px;
+}
+#destaque {
+    text-align: center;
+    padding: 45.5vh 0;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url("img/yoga.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #DAD7CD;
+    font-size: 3em !important;
+}
+#destaque h1 {
+    font-size: 0.6e7;
+}
+#destaque h6 {
+    font-size: 0.4em;
+}
+#aulas {
+    background-color: #FEFAE0;
+    color: #D4A373;
+    padding: 50px 0px;
+}
+.imagem{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+.imagem img {
+    width: 100%;
+    display: block;
+}
+#sobre {
+    padding: 30px 0;
+}
+#sobre img {
+    width: 100%;
+}
+#sobre h3, #sobre p {
+    color: #D4A373;
+}
+#sobre h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#sobre p {
+    font-size: 1.2em;
+}
+#aulas h3 {
+    text-align: center;
+}
+#aulas h4 {
+    text-align: center;
+    padding: 20px;
+}
+#aulas .col {
+    padding: 40px 20px;
+}
+.imagem-redonda img {
+    width: 45%;
+    height: auto;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#depoimento h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#depoimento h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#depoimento {
+    color: #323232 !important;
+    background-color: #D4A373;
+    padding: 30px 0;
+}
+footer {
+    padding: 50px;
+    text-align: center;
+}
+footer h3 {
+    color: #D4A373;
+    margin-bottom: 20px;
+}
+footer h5 {
+    font-weight: lighter;
+}
